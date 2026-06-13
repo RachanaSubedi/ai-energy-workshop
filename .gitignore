@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+*.conda
+conda-meta/
+
+# Data (raw data stays local, only workshop CSVs go to Git)
+data/raw/
+data/processed/
+
+# Large model files (put these on Google Drive instead)
+models/instructor/*.pt
+models/starting_points/*.pt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea/
