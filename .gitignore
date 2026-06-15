@@ -22,7 +22,6 @@ data/raw/
 data/processed/
 
 # Large model files (put these on Google Drive instead)
-models/instructor/*.pt
 models/instructor/*.pkl
 models/starting_points/*.pt
 
