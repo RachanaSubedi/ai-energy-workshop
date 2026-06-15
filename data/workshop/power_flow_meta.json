@@ -1,0 +1,38 @@
+{
+  "n_samples": 5000,
+  "n_failed": 0,
+  "load_range": [
+    0.8,
+    1.2
+  ],
+  "solar_p_range": [
+    0.3,
+    1.5
+  ],
+  "solar_q_range": [
+    -0.3,
+    0.3
+  ],
+  "input_features": [
+    "P_load1_MW",
+    "Q_load1_MVAr",
+    "P_load2_MW",
+    "Q_load2_MVAr",
+    "P_load4_MW",
+    "Q_load4_MVAr",
+    "P_solar_MW",
+    "Q_solar_MVAr"
+  ],
+  "output_features": [
+    "Vm_bus1_pu",
+    "Vm_bus2_pu",
+    "Vm_bus3_pu",
+    "Vm_bus4_pu",
+    "Va_bus1_deg",
+    "Va_bus2_deg",
+    "Va_bus3_deg",
+    "Va_bus4_deg"
+  ],
+  "input_dim": 8,
+  "output_dim": 8
+}
