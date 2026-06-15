@@ -22,7 +22,9 @@ data/raw/
 data/processed/
 
 # Large model files (put these on Google Drive instead)
+
 models/starting_points/*.pt
+
 
 # OS
 .DS_Store
